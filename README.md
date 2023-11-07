@@ -1,7 +1,7 @@
-# Formacao TypeScript Fuulstack DIO.
-> Estes são os arquivos gerados no curso Formação TypeScript Fullstack da DIO(Digital Inovation One).
+# Formacao TypeScript Fullstack.
+> Esses são os arquivos gerados no curso, Formação TypeScript Fullstack da DIO (Digital Inovation One).
 
-## Dependencias / Requisitos:
+## Dependências / Requisitos:
 1. **Ter um computador com um sistema operacional instalado.**
     - O meu sistema é o [Pop-OS.](https://pop.system76.com/)
 2. **Instalar o** [**Node.js.**](https://nodejs.org/en)
