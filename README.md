@@ -11,7 +11,7 @@
 
 # Anotações do curso de TypeScript:
 
-## Instalação:
+## Instalação do Typescript de forma global: 
 ```bash
 npm i -g typescript
 ```
@@ -22,7 +22,7 @@ npm i -g typescript
 npm init --y
 ```
 
-**Dependências:**
+**Dependências para execução:**
 ```bash
 npm i -D typescript
 ```
