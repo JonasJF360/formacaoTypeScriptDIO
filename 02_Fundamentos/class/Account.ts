@@ -1,7 +1,7 @@
 
 export abstract class Account {
     private name: string;
-    private accountNumber: number;
+    private readonly accountNumber: number;
     private balance: number = 0;
     private status: boolean = true;
 
@@ -14,10 +14,12 @@ export abstract class Account {
     getName = (): string => this.name;
     getAccountNumber = (): number => this.accountNumber;
     getBalance = (): number => this.balance;
+
     // setters
     setName = (name: string) => { this.name = name; };
-    setAccountNumber = (accountNumber: number) => { this.accountNumber = accountNumber; };
+    // setAccountNumber = (accountNumber: number) => { this.accountNumber = accountNumber; };
     setBalance = (balance: number) => { this.balance = balance; };
+
     // methods
     deposit = (): void => {
         if (this.validateStatus())
@@ -26,7 +28,7 @@ export abstract class Account {
     withdraw = (): void => { console.log(`${this.name}, você sacou`); };
     showBalance = (): void => { console.log(`Seu saudo é ${this.balance} `); };
 
-    private validateStatus = (): any => {
+    private validateStatus = (): boolean => {
         if (this.status) return this.status;
 
         throw new Error('Conta inválida');

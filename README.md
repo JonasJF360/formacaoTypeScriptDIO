@@ -56,3 +56,20 @@ npx tsc <nome>.ts
 ```bash
 npm run dev
 ```
+
+# Iniciado com o React:
+## **instalando:**
+- `npm i -g create-react-app` ou `npm install -g create-react-app`
+## Criando um projeto:
+- `npx create-react-app <nome-do-projeto>`
+    - EX.: `npx create-react-app my-app`
+## Criando um projeto com TypeScript:
+- `npx create-react-app <nome-do-projeto> --template typescript`
+    - EX.: `npx create-react-app my-app-ts --template typescript`
+## Rodando o app:
+- Abra a pasta do projeto com o comando `cd <nome-do-projeto>` e execute o comando `npm start`.
+    - Ex.:
+        ```bash
+        cd my-app-ts
+        npm start
+        ```

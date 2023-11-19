@@ -1,4 +1,5 @@
-import { Account } from './Account'
+import { Account } from "./Account"
+
 
 export class CompanyAccount extends Account {
 

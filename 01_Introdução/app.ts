@@ -80,15 +80,14 @@
         console.log(temp)
     }
 */
-/*// Trabalhando com arrays:
-    const numArray: Array<number> = [5, 6, 7, 8, 9]
-    const strArray: string[] = ['s', 'b', 'c', 'd']
+// Trabalhando com arrays:
+const numArray: Array<number> = [5, 6, 7, 8, 9]
+const strArray: string[] = ['s', 'b', 'c', 'd']
 
-    // console.log(numArray[2])
-    // console.log(strArray[3])
-    // console.log(strArray.length)
+// console.log(numArray[2])
+// console.log(strArray[3])
+// console.log(strArray.length)
 
-    // numArray.forEach(num => { if (num > 2) console.log(num) })
+// numArray.forEach(num => { if (num > 2) console.log(num) })
 
-    numArray.map(num => { if (num % 2 === 0) console.log(num) })
-*/
+numArray.map(num => { if (num % 2 === 0) console.log(num) })
